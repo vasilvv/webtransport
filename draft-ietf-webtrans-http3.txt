@@ -2,10 +2,13 @@
 
 
 
-Network Working Group                                        V. Vasiliev
-Internet-Draft                                                    Google
-Intended status: Standards Track                             18 May 2021
-Expires: 19 November 2021
+Network Working Group                                        A. Frindell
+Internet-Draft                                                  Facebook
+Intended status: Standards Track                              E. Kinnear
+Expires: 20 January 2022                                      Apple Inc.
+                                                             V. Vasiliev
+                                                                  Google
+                                                            19 July 2021
 
 
                         WebTransport over HTTP/3
@@ -46,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 November 2021.
+   This Internet-Draft will expire on 20 January 2022.
 
 Copyright Notice
 
@@ -88,7 +91,7 @@ Table of Contents
    8.  References
      8.1.  Normative References
      8.2.  Informative References
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -457,33 +460,33 @@ Table of Contents
    [HTTP3]    Bishop, M., Ed., "Hypertext Transfer Protocol Version 3
               (HTTP/3)", Work in Progress, Internet-Draft, draft-ietf-
               quic-http, <https://datatracker.ietf.org/doc/html/draft-
-              ietf-quic-http.txt>.
+              ietf-quic-http>.
 
    [HTTP3-DATAGRAM]
               Schinazi, D. and L. Pardue, "Using QUIC Datagrams with
               HTTP/3", Work in Progress, Internet-Draft, draft-schinazi-
               masque-h3-datagram-04, 5 January 2021,
               <https://datatracker.ietf.org/doc/html/draft-schinazi-
-              masque-h3-datagram-04.txt>.
+              masque-h3-datagram-04>.
 
    [OVERVIEW] Vasiliev, V., "The WebTransport Protocol Framework", Work
               in Progress, Internet-Draft, draft-ietf-webtrans-overview-
               latest, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              webtrans-overview-latest.txt>.
+              webtrans-overview-latest>.
 
    [QUIC-DATAGRAM]
               Pauly, T., Kinnear, E., and D. Schinazi, "An Unreliable
               Datagram Extension to QUIC", Work in Progress, Internet-
               Draft, draft-pauly-quic-datagram,
               <https://datatracker.ietf.org/doc/html/draft-pauly-quic-
-              datagram.txt>.
+              datagram>.
 
    [QUIC-TRANSPORT]
               Iyengar, J., Ed. and M. Thomson, Ed., "QUIC: A UDP-Based
               Multiplexed and Secure Transport", Work in Progress,
               Internet-Draft, draft-ietf-quic-transport,
               <https://datatracker.ietf.org/doc/html/draft-ietf-quic-
-              transport.txt>.
+              transport>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -528,9 +531,21 @@ Table of Contents
               Xie, "WebTransport using HTTP/2", Work in Progress,
               Internet-Draft, draft-kinnear-webtransport-http2-02, 22
               February 2021, <https://datatracker.ietf.org/doc/html/
-              draft-kinnear-webtransport-http2-02.txt>.
+              draft-kinnear-webtransport-http2-02>.
 
-Author's Address
+Authors' Addresses
+
+   Alan Frindell
+   Facebook
+
+   Email: afrind@fb.com
+
+
+   Eric Kinnear
+   Apple Inc.
+
+   Email: ekinnear@apple.com
+
 
    Victor Vasiliev
    Google
